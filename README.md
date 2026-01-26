@@ -1,6 +1,6 @@
 # Identificação do Projeto de Redes
 ## Nome do Técnico responsável:
-_Altere esse texto e substitua por seu nome_
+Erik Leal Reis
 ## Resumo descritivo
 
 _Altere esse texto e faça uma descrição resumida do objetivo do projeto_
