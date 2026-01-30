@@ -3,7 +3,7 @@
 Erik Leal Reis
 ## Resumo descritivo
 
-_Altere esse texto e faça uma descrição resumida do objetivo do projeto_
+O projeto tem como objetivo propor a implantação do CCET como CORE de Redes da Universidade, utilizando uma planta baixa da infraestrutura física para planejar a organização lógica e estrutural dos equipamentos de rede, enlaces e pontos de acesso. A partir dessa modelagem, busca-se otimizar a distribuição do tráfego de dados, aumentar a confiabilidade da comunicação entre os blocos e laboratórios, e garantir maior desempenho, escalabilidade e segurança da rede institucional.
 
 ## Documentos técnicos
 
