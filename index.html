@@ -1,36 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Grupo de Pesquisa CCET</title>
+  <title>Projeto de Infraestrutura de Redes - CCET</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <h1>Grupo de Pesquisa Individual do CCET - Antonielly</h1>
+<header>
+  <h1>Projeto de Infraestrutura de Redes - CCET</h1>
+  <p>Laboratórios de Pesquisa, Ensino e Extensão</p>
+</header>
 
-  <h2>Objetivo do Projeto</h2>
+<nav>
+  <a href="#descricao">Descrição</a>
+  <a href="#equipamentos">Equipamentos</a>
+  <a href="#planta">Planta Baixa</a>
+  <a href="#topologia">Topologia</a>
+  <a href="#resultados">Resultados Esperados</a>
+</nav>
+
+<section id="descricao">
+  <h2>Descrição do Projeto</h2>
   <p>
-    Projeto desenvolvido no CCET com foco na implantação de uma infraestrutura
-    de redes centralizada, visando transformar o centro em um CORE de Redes
-    da Universidade. Além de fornecer o acesso a internet e máquinas para os laboratórios do centro.<br>
-    O condomínio de laboratórios permitirá acesso compartilhado a infraestrutura
-    computacional, servidores de alto desempenho e ambientes de testes para
-    simulação de redes e aplicações distribuídas. Possibilitando os dicentes:
-  <ul>
-    <li>Produção de artigos científicos</li>
-    <li>Desenvolvimento de protótipos</li>
-    <li>Publicação de softwares acadêmicos</li>
-  </ul>
-
+    Este projeto tem como objetivo planejar e implementar uma infraestrutura de redes moderna e escalável
+    para o Centro de Ciências Exatas e Tecnologia (CCET), utilizando como base a planta baixa física do prédio.
+    A proposta contempla a organização lógica e estrutural dos equipamentos de rede, visando garantir
+    conectividade eficiente entre os três laboratórios, sala de professores e áreas de circulação.
   </p>
 
-  <nav>
-    <a href="projeto.html">Projeto</a> |
-    <a href="resultados.html">Resultados</a>
-  </nav>
+  <p>
+    A arquitetura proposta considera a criação de um ambiente seguro, segmentado e preparado para atividades
+    acadêmicas, pesquisa científica, desenvolvimento tecnológico e integração com o condomínio de laboratórios
+    da universidade.
+  </p>
+</section>
+
+<section id="equipamentos">
+  <h2>Equipamentos Utilizados na Infraestrutura</h2>
+
+  <ul>
+    <li><strong>Servidor Central:</strong> Responsável pelo armazenamento de dados, serviços internos e aplicações acadêmicas.</li>
+
+    <li><strong>Gateway com Firewall Lógico:</strong> Controla o acesso à internet, aplica regras de segurança e protege a rede contra ataques externos.</li>
+
+    <li><strong>Switch de Distribuição:</strong> Realiza a interconexão dos equipamentos, permitindo segmentação por VLANs e melhor controle do tráfego.</li>
+
+    <li><strong>3 Access Points (Wi-Fi):</strong> Distribuídos estrategicamente para garantir cobertura sem fio nos laboratórios e áreas comuns.</li>
+
+    <li><strong>15 Computadores:</strong> Distribuídos entre os três laboratórios para uso em aulas práticas, pesquisa e desenvolvimento.</li>
+  </ul>
+</section>
+
+<section id="planta">
+  <h2>Planta Baixa do CCET</h2>
+
+  <p>
+    A planta baixa abaixo representa a estrutura física do CCET utilizada como referência para o planejamento
+    da infraestrutura de redes. A partir dela foi possível definir a melhor posição dos equipamentos,
+    pontos de acesso sem fio e cabeamento estruturado.
+  </p>
+
+  <div class="imagem-container">
+    <img src="imagens/Planta_baixa_CCET.png" alt="Planta Baixa do CCET">
+    <p class="legenda">Figura 1 — Planta baixa utilizada como base para o projeto de rede do CCET.</p>
+  </div>
+</section>
+
+<section id="topologia">
+  <h2>Topologia Lógica da Rede</h2>
+
+  <p>
+    A topologia lógica foi projetada considerando boas práticas de redes corporativas e acadêmicas,
+    utilizando uma estrutura hierárquica composta por gateway, switch de distribuição e dispositivos finais.
+    Esse modelo permite maior controle, escalabilidade e segurança.
+  </p>
+
+  <div class="imagem-container">
+    <img src="imagens/Topologia_CORE_CCET.png" alt="Topologia Lógica da Rede">
+    <p class="legenda">Figura 2 — Topologia lógica desenvolvida para o ambiente do CCET.</p>
+  </div>
+</section>
+
+<section id="resultados">
+  <h2>Resultados Esperados</h2>
+
+  <ul>
+    <li>Melhoria significativa na performance da rede local.</li>
+    <li>Maior estabilidade na comunicação entre os laboratórios.</li>
+    <li>Ambiente seguro com controle de acesso e segmentação por VLANs.</li>
+    <li>Infraestrutura preparada para crescimento futuro.</li>
+    <li>Suporte eficiente para atividades acadêmicas, pesquisa e projetos de extensão.</li>
+    <li>Integração com o condomínio de laboratórios da universidade.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Projeto Acadêmico — Infraestrutura de Redes CCET | Desenvolvido para fins educacionais</p>
+</footer>
 
 </body>
-
 </html>

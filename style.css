@@ -1,7 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-color: #0d1117;
-    color: #00ffcc;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 120px;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* MENU */
+
+nav {
+  background-color: #1565c0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* SEÇÕES */
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+/* LISTAS */
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* IMAGENS */
+
+.imagem-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imagem-container img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.legenda {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+  font-style: italic;
+}
+
+/* RODAPÉ */
+
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
